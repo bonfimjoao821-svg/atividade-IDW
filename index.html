@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ROUPINHAS</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&family=Roboto:wght@300;400;500&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="css/index.css">
+</head>
+<body>
+
+    <header>
+        <div class="logo">
+            <img src="logogo.jpg" alt="Logo ROUPINHAS">
+            <span>ROUPINHAS</span>
+        </div>
+
+        <nav class="top-nav">
+            <a href="#">Início</a>
+            <a href="#">Novidades</a>
+            <a href="#">Cadastre-se</a>
+            <a href="#" class="btn">Login</a>
+        </nav>
+    </header>
+
+    <main>
+        <section class="produtos-section">
+            <h1>Lista de Produtos</h1>
+
+            <!-- LOADING -->
+            <p id="loading">Carregando...</p>
+
+            <!-- ERRO -->
+            <p id="erro" class="erro hidden">Não foi possível carregar os produtos.</p>
+
+            <!-- GRID DE PRODUTOS -->
+            <div id="produtos-grid" class="produtos-grid"></div>
+        </section>
+    </main>
+
+    <script type="module" src="index.js"></script>
+</body>
+</html>
